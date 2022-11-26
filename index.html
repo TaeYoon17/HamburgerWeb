@@ -9,19 +9,37 @@
   </head>
   <body>
     <header>
-      <h1 style="text-align: center; font-size: 3.2em; font-weight: bold;">햄버거 쌓기 게임</h1>
-      <h3 style="text-align: center; margin: 0px;"><img src="caution.png" style="height: 1em; width: 1em; "/>
-        <span style="color: gray; font-size: 0.8em;">유니티 웹 빌드로 문제로 게임 애니메이션은 없앴습니다.</span></h3>
-      <h2 style="margin: 0px;">게임 조작법</h2>
-      <div style="font-size: 1.1em; margin-top: 5px;margin-bottom:5px;">
-      1: 밑빵 
-      2: 윗빵 
-      3: 치즈 
-      4: 양상추 
-      5: 토마토 
-      6: 패티
+      <h1 style="text-align: center; font-size: 3.2em; font-weight: bold; margin-bottom: 0;">햄버거 쌓기 게임</h1>
+      <h3 style="text-align: center; margin: 5px;">
+        <span>🍔</span>
+        <span style="color: gray; font-size: 0.8em;">유니티 웹 빌드로 문제로 게임 애니메이션은 없앴습니다.</span>
+      </h3>
+      <div style="font-size: 20px; margin-bottom: 5px;">
+        아래 번호에 맞게 키보드를 입력하면 재료가 떨어집니다!!<br>
+        <span>타이머 <img src= "./imgs/timer.png" style="width: 16px; height: 16px;"/>가 사라지기전에 입력해 제한 시간안에 햄버거를 만드세요!!
+        </span></div>
+      <div style="display: inline-flex; width: 600px; justify-content: space-between; align-content: center;">
+        <div style="width: 15%;">
+          1. 
+          <img src= "./imgs/bottom.PNG" style="width: 100%;"/>
+        </div>
+        <div style="width: 15%;">2. 
+          <img src= "./imgs/top.PNG" style="width: 100%;"/>
+        </div>
+        <div style="width: 15%;">3. 
+          <img src= "./imgs/cheese.PNG" style="width: 100%;"/>
+        </div>
+        <div style="width: 15%;">4. 
+          <img src= "./imgs/lettuce.PNG" style="width: 100%;"/>
+        </div>
+        <div style="width: 15%;">5.
+          <img src= "./imgs/tomato.PNG" style="width: 100%;"/>
+        </div>
+        <div style="width: 15%;"> 6.
+          <img src= "./imgs/patty.PNG" style="width: 100%;"/>
+        </div>
       </div>
-      <img src= "./ControlBtn.png" style="height: 3.5em;"/>
+      
     </header>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
